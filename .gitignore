@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+.next/
+*.zip
+*.mp4
+*.sqlite
+*.envgit filter-repo --path node_modules/ --invert-paths
+
